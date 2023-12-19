@@ -4,7 +4,7 @@ import express from 'express';
 const app = express();
 const port = process.env.PORT || 3000
 
-app.get("/api/intro", (req, res)=>{
+app.get("/", (req, res)=>{
  const intro = {
     name: "Samuel fernandes"
  }
